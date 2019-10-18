@@ -1,0 +1,7 @@
+bases:
+- https://github.com/dlorenc/shared-kustomize-bases.git//golang
+patches:
+- deployment.yaml
+commonLabels:
+  env: stg
+namePrefix: golang-template-

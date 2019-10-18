@@ -1,0 +1,8 @@
+bases:
+- https://github.com/dlorenc/shared-kustomize-bases.git//golang
+patches:
+- deployment.yaml
+namePrefix: "golang-template-"
+commonLabels:
+  app: golang-template
+  role: backend
